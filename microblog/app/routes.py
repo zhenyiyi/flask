@@ -26,6 +26,7 @@ def index():
 
 
 def login():
+	return "12312"
 	form = LoginForm()
 	return render_template('login.html', title='Sign In',form=form)
 
