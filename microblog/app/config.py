@@ -10,8 +10,8 @@ class Config(object):
 
 	# url的格式为：数据库的协议： // 用户名：密码 @ ip地址：端口号（默认可以不写） / 数据库名
 	#                 mysql ://   root : QAZwsx123. @ localhost/app
-	SQLALCHEMY_DARABASE_URI = "mysql://root:QAZwsx123.@localhost/app"
-	SQLALcHEMY_TRACE_MODIFICATIONS = False
+	SQLALCHEMY_DATABASE_URI = "mysql://root:QAZwsx123.@localhost/app"
+	SQLALCHEMY_TRACK_MODIFICATIONS = False
 
 
 
