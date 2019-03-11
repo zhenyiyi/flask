@@ -9,3 +9,6 @@ def make_shell_context():
         'User' : User,
         'Post' : Post
     }
+
+
+# 可以在终端中运行 flask run
